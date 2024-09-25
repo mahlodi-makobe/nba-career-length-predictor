@@ -44,4 +44,30 @@ The dataset used for this project contains information about NBA players, includ
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/yourusername/nba-career-length-predictor.git  
-   cd nba-career-length-predictor  
+   cd nba-career-length-predictor
+
+2.  Install the required packages:
+   pip install -r requirements.txt  
+
+3.  Place the nba-playerlist.csv file in the data/ directory.
+
+  ###  Running the Script
+1.  Navigate to the src/ directory
+   cd src  
+2.  Run the career_length_predictor.py script
+   python career_length_predictor.py  
+  This script will perform the following steps:
+  - Load and preprocess the data.
+  - Visualize key relationships in the dataset.
+  - Train a linear regression model to predict the career length of NBA players.
+  - Evaluate the model and print the results.
+
+### Current Status
+  - The current version is a basic implementation with placeholder features.
+  - Ongoing improvements include refining the feature set, experimenting with different models and tuning the hyperparameters.
+
+### Contributing
+  Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
